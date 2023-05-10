@@ -1,0 +1,46 @@
+
+# colonizer
+{{ "colonizer" | NpmLink }} is a small `JavaScript/TypeScript` library for handling colonArgs.
+
+I felt the need for `colonizer` when I was working on {{ gh.link("iaseth/josn") }}.
+
+I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
+You can view the source file [here](https://github.com/iaseth/colonizer/blob/master/README.md.rx).
+
+
+## Table of contents
+{{ tableOfContents(doc) }}
+
+
+## Installation
+You can install {{ "colonizer" | NpmLink }} with the following command:
+=> npm i colonizer
+Now you should be able to use `colonizer` in your project.
+
+
+:: ## Documentation
+:: `colonizer` export the following functions, each of them accept a single argument and return `true` or `false`.
+
+:: | Function | Description |
+:: | -------- | ----------- |{% for fun in parse("docs.json")["functions"] %}
+:: | {{ "`" + fun.name + "(arg)`" if fun.name else "**" + fun.heading + "**" }} | {{ fun.description }} |{% endfor %}
+
+
+## Package details
+{{ npm.packageDetails() }}
+
+
+## Dependencies
+{{ npm.dependencyTable() }}
+
+
+## Dev dependencies
+{{ npm.devDependencyTable() }}
+
+
+## License
+{{ "LICENSE.md" | File }}
+
+
+{{ giveCredit() }}
+
