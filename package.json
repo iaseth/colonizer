@@ -12,5 +12,9 @@
   "author": "iaseth",
   "homepage": "https://github.com/iaseth/colonizer",
   "repository": "iaseth/colonizer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0"
+  }
 }
