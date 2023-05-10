@@ -1,6 +1,6 @@
 
 # colonizer
-{{ "colonizer" | NpmLink }} is a small `JavaScript/TypeScript` library for handling colonArgs.
+{{ npm.link("colonizer") }} is a small `JavaScript/TypeScript` library for handling colonArgs.
 
 I felt the need for `colonizer` when I was working on {{ gh.link("iaseth/josn") }}.
 
@@ -13,9 +13,10 @@ You can view the source file [here](https://github.com/iaseth/colonizer/blob/mas
 
 
 ## Installation
-You can install {{ "colonizer" | NpmLink }} with the following command:
+You can install {{ npm.link("colonizer") }} with the following command:
 => npm i colonizer
-Now you should be able to use `colonizer` in your project.
+Now you can import `colonizer` in your project as follows.
+=> const colonizer = require("colonizer");
 
 
 :: ## Documentation

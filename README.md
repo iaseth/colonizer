@@ -23,7 +23,10 @@ You can install [`colonizer`](https://www.npmjs.com/package/colonizer) with the 
 ```
 npm i colonizer
 ```
-Now you should be able to use `colonizer` in your project.
+Now you can import `colonizer` in your project as follows.
+```
+const colonizer = require("colonizer");
+```
 
 
 
